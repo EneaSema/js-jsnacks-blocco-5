@@ -9,12 +9,11 @@ const people = [
 
 console.log(people);
 
+let currentElementName = "";
 for (let i = 0; i < people.length; i++) {
-  let currentElementName = "";
-  currentElementName = `${currentElementName} people[i].name`;
-  console.log(currentElement);
+  currentElementName += people[i].name;
 }
-console.log(currentElement);
+console.log(currentElementName);
 
 // const namePeople = people.filter((person) => {
 //   currentName = person.name;
