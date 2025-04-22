@@ -9,15 +9,12 @@ const people = [
 
 console.log(people);
 
-let currentElementName = "";
-for (let i = 0; i < people.length; i++) {
-  currentElementName += people[i].name;
-}
-console.log(currentElementName);
+// let currentElementName = "";
+// for (let i = 0; i < people.length; i++) {
+//   currentElementName += people[i].name;
+// }
+// console.log(currentElementName);
 
-// const namePeople = people.filter((person) => {
-//   currentName = person.name;
-//   return currentName;
-// });
-
-// console.log(namePeople);
+people.forEach((current) => {
+  console.log(current.name);
+});

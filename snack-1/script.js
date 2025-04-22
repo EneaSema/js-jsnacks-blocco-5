@@ -17,8 +17,8 @@ names.forEach(function (name) {
 //     console.log(current);
 // }
 
-// names.forEach(function (current, index) {
-//   console.log(current, index);
+// names.forEach(function (name, index) {
+//   console.log(name, index);
 // });
 
 // names.forEach((current, index) => {
