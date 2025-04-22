@@ -4,7 +4,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 const newNumbers = numbers.map(function (current) {
-  current = 5;
+  current++;
   console.log(current);
   return current;
 });
